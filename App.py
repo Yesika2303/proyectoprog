@@ -9,8 +9,9 @@ with st.container(border=True):
     st.markdown("En un triángulo rectángulo, los lados menores son los que forman el ángulo recto y se llaman catetos y el lado mayor se llama hipotenusa. En el triángulo rectángulo de la imagen a y b son los catetos y c es la hipotenusa.")
 st.subheader("Demostración gráfica del teorema de Pitágoras (por Perigal)")
 st.video("https://www.smartick.es/blog/wp-content/uploads/2024/02/Video-demostracion-Perigal.mp4?_=2")
-
-opc = st.selectbox("Seleccione los lados cuyas medidas conoce:", ["El cateto a y la hipotenusa (c)","El cateto b y la hipotenusa (c)", "Ambos catetos (a y b)"])
+st.write("Seleccione los lados cuyas medidas conoce:")
+opc = st.selectbox("", ["El cateto a y la hipotenusa (c)","El cateto b y la hipotenusa (c)", "Ambos catetos (a y b)"])
+st.write("Digite las medidas en las casillas correspondientes:")
 if opc == "El cateto a y la hipotenusa (c)":
     a= float(st.number_input("a"))
     c= float(st.number_input("c"))
