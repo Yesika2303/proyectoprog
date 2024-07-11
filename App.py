@@ -7,7 +7,7 @@ with st.container(border=True):
     st.markdown("La suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa.")
 st.image("https://www.smartick.es/blog/wp-content/uploads/2024/02/teorema-de-Pitagoras-2-768x619.png")
 with st.container(border=True):
-    st.markdown("En un triángulo rectángulo, los lados menores son los que forman el ángulo recto y se llaman **catetos** y el lado mayor se llama **hipotenusa**. En el triángulo rectángulo de la imagen a y b son los catetos y c es la hipotenusa.")
+    st.markdown("En un triángulo rectángulo, los lados menores son los que forman el ángulo recto y se llaman **catetos** y el lado mayor se llama **hipotenusa**. En el triángulo rectángulo de la imagen **a** **y** **b** **son** **los catetos** y **c** **es** **la** **hipotenusa**.")
 st.subheader("Demostración gráfica del teorema de Pitágoras (por Perigal)")
 st.video("https://www.smartick.es/blog/wp-content/uploads/2024/02/Video-demostracion-Perigal.mp4?_=2")
 st.write("Seleccione los lados cuyas medidas conoce:")
