@@ -1,5 +1,6 @@
 import streamlit as st
 st.html("<center> <h1> ¡Bienvenido!  </h1> </center>")
+st.write("En este aplicativo podrá hallar la medida del tercer lado de un triángulo rectángulo a partir de las medidas de dos lados conocidos, aplicando el teorema de Pitágoras.")
 st.divider()
 st.title("Teorema de Pitágoras")
 with st.container(border=True):
