@@ -11,7 +11,7 @@ with st.container(border=True):
 st.subheader("Demostración gráfica del teorema de Pitágoras (por Perigal)")
 st.video("https://www.smartick.es/blog/wp-content/uploads/2024/02/Video-demostracion-Perigal.mp4?_=2")
 st.write("Seleccione los lados cuyas medidas conoce:")
-opc = st.selectbox("", ["El **cateto** **a** y **la** **hipotenusa** (c)","El **cateto** **b** y **la** **hipotenusa** (c)", "Ambos **catetos** (a y b)"])
+opc = st.selectbox("", ["El cateto a y la hipotenusa (c)","El cateto b y la hipotenusa (c)", "Ambos catetos (a y b)"])
 st.write("Digite las medidas en las casillas correspondientes:")
 if opc == "El cateto a y la hipotenusa (c)":
     a= float(st.number_input("a"))
